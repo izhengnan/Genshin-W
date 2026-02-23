@@ -186,6 +186,21 @@ var BossChallenge_Schedule = [
                 ]
             }
         ]
+    },
+    {
+        "Name": "除晦之役",
+        "Ver": "6.4",
+        "Time": "2026/03/04 - 2026/04/07",
+        "Levels": [
+            {
+                "Level": 5,
+                "Monsters": [
+                    1001063,
+                    1007062,
+                    1007063
+                ]
+            }
+        ]
     }
 ]
 
@@ -1535,5 +1550,74 @@ var BossChallenge_Monsters = {
         "ID": 26170105,
         "HP_2": 14042886,
         "HPMult_2": 11.4
+    },
+    "1007062": {
+        "Name": "历经百战的十六倍曼陀草·风滚狂蔓",
+        "Title": "风滚狂蔓的百战之躯",
+        "Desc": "在幽境危战中久经磨砺的曼陀草，其坚韧的藤蔓已能抵御狂风与利刃。每一次滚动都裹挟着大地的力量，仿佛是从远古战场中走出的百战老兵。<br>在地脉乱流的扭曲演绎下，它的藤蔓愈发狂暴，成为了所有挑战者的噩梦…",
+        "Icon": "UI_Img_LeyLineChallenge_Mandragora",
+        "OriginalIcon": "UI_MonsterIcon_Mandragora",
+        "HP": 6357000,
+        "BaseHP": 5297500,
+        "HPMult": 1.2,
+        "Advantage": "{11030}元素反应 | 聚集能力角色",
+        "Disadvantage": "",
+        "Buff": [
+            {
+                "Name": "强效聚合状态",
+                "Desc": "受到地脉紊乱的影响，战斗开始时，强敌将进入<color style='color:#FFD780;'>「聚合状态」</color>：所有抗性大幅提升。该状态只会不断释放强劲的<color style='color:#FFD780;'>「聚合能量」</color>，使用<color style='color:#FFD780;'>火元素</color>或<color style='color:#FFD780;'>雷元素</color>攻击强敌，也会加速其能量的消耗。当<color style='color:#FFD780;'>「聚合能量」</color>耗尽后，强敌将释放<color style='color:#FFD780;'>「滋蔓之息」</color>，并转变为<color style='color:#FFD780;'>「分裂状态」</color>。"
+            },
+            {
+                "Name": "分裂状态",
+                "Desc": "强敌进入<color style='color:#FFD780;'>「分裂状态」</color>时，将分裂为大量孢子。孢子受到伤害时，会根据其所受伤害总值造成一定比例的伤害。持续一段时间后，强敌将再次进入<color style='color:#FFD780;'>「聚合状态」</color>。此外，一旦场上的孢子少于一定数量，强敌将会进入<color style='color:#FFD780;'>「聚合性聚合」</color>状态：所有抗性大幅降低，且战斗能力将被削弱。另外，<color style='color:#FFD780;'>「聚合性聚合」</color>产生出的所有孢子均被击溃，则强敌从<color style='color:#FFD780;'>「分裂状态」</color>转变为<color style='color:#FFD780;'>「聚合性聚合状态」</color>。"
+            },
+            {
+                "Name": "空裂结构",
+                "Desc": "受到地脉紊乱的影响，强敌处于<color style='color:#FFD780;'>「分裂状态」</color>或<color style='color:#FFD780;'>「聚合性聚合状态」</color>时，<color style='color:#FFD780;'>风元素抗性</color>大幅降低。"
+            }
+        ],
+        "Tutorial": [
+            "• 初始处于活化聚合态，具有@300%#的额外抗性，活化能量条自然衰减需@38s#，受到@雷元素或火元素#伤害时，活化能量条衰减加速@0.2s#，若再次伤害具有元素附着，则额外加速@1s#",
+            "• 聚合状态结束时会进入@分裂态#，分裂为@10个#散开的孢子，每个孢子具有具体最大生命值的10%。分裂持续22s，且聚合时施放基于孢子受到伤害总值的一定比例的一次高额伤害",
+            "• 若在分裂期间至少消灭了@8个#孢子，则强敌会进入脆性聚合：失去额外抗性。若提前消灭了全部孢子，那么强敌会提前聚合，且强敌处于分裂态和聚合性聚合期间：风元素抗性为@-90%#。"
+        ],
+        "ID": 22150108,
+        "HP_2": 11780000,
+        "HPMult_2": 2.22
+    },
+    "1007063": {
+        "Name": "重拳击出鸭·重甲武库",
+        "Title": "重甲武库的重拳击者",
+        "Desc": "身披厚重装甲的战斗鸭，每一次出拳都能撼动大地。它的装甲中藏着无数机关，仿佛一座移动的武库，誓要将所有敌人轰成碎片。<br>经由地脉乱象的扭曲演绎，它的装甲愈发坚固，出拳愈发迅猛，成为了战场上无可匹敌的重拳击者…",
+        "Icon": "UI_Img_LeyLineChallenge_HeavyDuck",
+        "OriginalIcon": "UI_MonsterIcon_HeavyDuck",
+        "HP": 13110000,
+        "BaseHP": 10925000,
+        "HPMult": 1.2,
+        "Advantage": "{11034}元素反应 | {11004}元素角色",
+        "Disadvantage": "",
+        "Buff": [
+            {
+                "Name": "「全装甲开灭」模式",
+                "Desc": "受到地脉紊乱的影响，战斗开始后，强敌会进入<color style='color:#FFD780;'>「全装甲开灭」模式</color>，进攻欲望急剧上升，并为自身生成<color style='color:#FFD780;'>护盾</color>提升所有抗性，还会召唤新的<color style='color:#FFD780;'>冲刺机关兵</color>进行猛攻。"
+            },
+            {
+                "Name": "低脉冲冲机关",
+                "Desc": "多次受到<color style='color:#FFD780;'>感电/月感电</color>伤害，或直接造成足量伤害破坏<color style='color:#FFD780;'>冲刺机关兵</color>，均可干扰它们的运行。被干扰的<color style='color:#FFD780;'>冲刺机关兵</color>会向周围放出冲击波，并对<color style='color:#FFD780;'>重拳击出鸭</color>造成一定伤害。通过这种方式破坏所有的<color style='color:#FFD780;'>冲刺机关兵</color>，即可使强敌的雷元素抗性在一段时间内大幅降低。"
+            },
+            {
+                "Name": "快速逃脱系统",
+                "Desc": "受到地脉紊乱的影响，冲刺机关变得更加坚固，需要造成更多次<color style='color:#FFD780;'>感电/月感电</color>伤害，或造成更高伤害才能将其击败。<color style='color:#FFD780;'>感电/月感电</color>伤害对<color style='color:#FFD780;'>冲刺机关兵</color>具有更高的破坏效率，当失控的<color style='color:#FFD780;'>冲刺机关兵</color>向<color style='color:#FFD780;'>重拳击出鸭</color>冲击时，其造成的伤害将根据<color style='color:#FFD780;'>冲刺机关兵</color>所受伤害的总值提升。"
+            }
+        ],
+        "Tutorial": [
+            "• 入战时，会展开护盾，使自身全部抗性提升至@150%#，并召唤@5只#冲刺机关兵，每只冲刺机关兵具有强敌最大生命值@25%#的血量，且除雷以外的全部抗性为@150%#。",
+            "• 冲刺机关兵无法被聚怪，也不会被击飞，受到@感电/月感电#伤害增加@150%#，对冲刺机关造成@20次@@感电/月感电#伤害可以直接击败它。",
+            "• 每个冲刺机关被破坏时，基于其受到伤害的@20%#对首领造成伤害，摧毁所有冲刺机关可破坏首领的护盾，使其陷入持续@12s#的瘫痪，瘫痪期间首领全抗为@-50%#。",
+            "• 瘫痪结束后，首领除元素以外的抗性恢复到@10%#，雷元素抗性依然保持@-50%#，约@45s#后，首领重新展开护盾。"
+        ],
+        "ID": 22150109,
+        "HP_2": 25930000,
+        "HPMult_2": 1.98
     }
 }

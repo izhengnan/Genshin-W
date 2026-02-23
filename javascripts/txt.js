@@ -1578,7 +1578,7 @@ if (enable_about) {
 if (Date.now() > Date.parse('2026-01-05T18:00:00+08:00')) {
     $('h3').render({
         p: {
-            CH: `今后玉衡杯仅更新正式服内容`,
+            CH: `个人自用网站，随缘更新`,
             EN: `HomDGCat Wiki will only update live game data in the future.`
         }[lang],
         style: {
