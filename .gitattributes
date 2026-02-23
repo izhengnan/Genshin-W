@@ -1,0 +1,2 @@
+TextMap/SR.json filter=lfs diff=lfs merge=lfs -text
+TextMap/GI.json filter=lfs diff=lfs merge=lfs -text
