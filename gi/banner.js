@@ -2,6 +2,95 @@
 
 var _banners = [
     {
+        "V": "6.4",
+        "P": [
+            {
+                "_id": 1,
+                "A": [
+                    {
+                        "N": "Farga",
+                        "X": 1
+                    },
+                    {
+                        "N": "Flins",
+                        "X": 2
+                    }
+                ],
+                "B": [
+                    {
+                        "N": "Bennett",
+                        "X": 16
+                    },
+                    {
+                        "N": "Xiangling",
+                        "X": 12
+                    },
+                    {
+                        "N": "Sucrose",
+                        "X": 11
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "A": [
+                    {
+                        "N": "SkirkNew",
+                        "X": 2
+                    },
+                    {
+                        "N": "Escoffier",
+                        "X": 2
+                    }
+                ],
+                "B": [
+                    {
+                        "N": "Candace",
+                        "X": 7
+                    },
+                    {
+                        "N": "Dahlia",
+                        "X": 2
+                    },
+                    {
+                        "N": "Charlotte",
+                        "X": 5
+                    }
+                ]
+            },
+            {
+                "_id": 4,
+                "A": [
+                    {
+                        "N": "Eula",
+                        "X": 5
+                    },
+                    {
+                        "N": "Klee",
+                        "X": 6
+                    },
+                    {
+                        "N": "Albedo",
+                        "X": 5
+                    },
+                    {
+                        "N": "Mona",
+                        "X": 2
+                    },
+                    {
+                        "N": "Diluc",
+                        "X": 2
+                    },
+                    {
+                        "N": "Qin",
+                        "X": 2
+                    }
+                ],
+                "B": []
+            }
+        ]
+    },
+    {
         "V": "6.3",
         "P": [
             {
@@ -13,21 +102,21 @@ var _banners = [
                     },
                     {
                         "N": "Ineffa",
-                        "X": 1
+                        "X": 2
                     }
                 ],
                 "B": [
                     {
                         "N": "Ifa",
-                        "X": 1
+                        "X": 3
                     },
                     {
                         "N": "Sethos",
-                        "X": 2
+                        "X": 4
                     },
                     {
                         "N": "Fischl",
-                        "X": 1
+                        "X": 11
                     }
                 ]
             },
@@ -50,11 +139,11 @@ var _banners = [
                     },
                     {
                         "N": "Aino",
-                        "X": 1
+                        "X": 2
                     },
                     {
                         "N": "Gorou",
-                        "X": 1
+                        "X": 6
                     }
                 ]
             }
@@ -2833,6 +2922,7 @@ var _banners = [
 
 var _icons = {
     "": "Unknown",
+    "Farga": "UI_AvatarIcon_Farga",
     "Yelanoya": "UI_AvatarIcon_Yelanoya",
     "Keqing": "UI_AvatarIcon_Keqing",
     "Illuga": "UI_AvatarIcon_Illuga",

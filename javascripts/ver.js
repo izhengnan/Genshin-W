@@ -1,4 +1,4 @@
-VER_GI = "6.3"//GI
+VER_GI = "6.4"//GI
 
 VER_SR = "3.8"//SR
 
